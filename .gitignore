@@ -44,8 +44,8 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 
-## Namm added 
-
+# Namm added 
+.ZIP
 .doc
 .docx
 .zip
