@@ -45,7 +45,7 @@ captures/
 .externalNativeBuild
 
 # Namm added 
-.ZIP
-.doc
-.docx
-.zip
+*.ZIP
+*.doc
+*.docx
+*.zip
