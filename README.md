@@ -1,1 +1,1 @@
-Only developed for 1 screensize, because thats what Im interested in
+Only developed and tested with 1 screensize. Probably needs some configuration with others.
