@@ -99,10 +99,12 @@ public class GameActivity extends Activity implements View.OnClickListener  {
             placeButtons();
         }
         else if(v.getId()== R.id.btn_Undo){
+            btn_Undo.setEnabled(true);
             unDo();
         }
         else if(v.getId()== R.id.btn_Restart){
             txt_Turn.setText(s_Turns[0]);
+            btn_Undo.setEnabled(true);
             gE.restart();
             for(int i = 0; i<rows*columns; i++){
                 ImageView l = (ImageView) gridview.getChildAt(i);
@@ -119,6 +121,7 @@ public class GameActivity extends Activity implements View.OnClickListener  {
             int pos = gE.unDo();
             ImageView v = (ImageView) gridview.getChildAt(pos);
             v.setImageResource(R.drawable.empty_t);
+
         }
 
     }
